@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container-fluid{
+    height: 100vh;
+  }
+  
+  .card{
+    width: 40rem;
+    height: 50rem;
+  }
+
+  .icon{
+    color: red;
+    animation: pulse-animation 2s infinite;
+  }
+  
+
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+  
+
+
+  #screen {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 17rem;
+  }
+
+.box{
+   height: 3rem;
+   width: 3rem;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
