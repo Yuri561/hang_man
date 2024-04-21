@@ -10,6 +10,21 @@ html {
   .card{
     width: 40rem;
     height: 50rem;
+    border: solid 1px #6699ff;
+  }
+  .btn-generate{
+    background: #ff7f27;
+  }
+
+  .btn-generate:hover{
+    background: #ff7f27;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
+
+  .btn-guess{
+    background-color: #6699ff;;
   }
 
   .icon{
@@ -27,6 +42,9 @@ html {
     }
   }
   
+  .card-bg{
+    background-color: #000066;
+  }
 
 
   #screen {
@@ -46,4 +64,35 @@ html {
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-  
+
+.card-header{
+  background: #ffcc00;
+}
+
+.card-footer{
+  background: #ffcc00;
+}
+
+.title{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  color: whitesmoke;
+}
+
+h4{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 15px;
+  font-style: normal;
+  color: #3a0043;
+}
+
+.hangscreen {
+  background-color: black;
+  position: relative;
+  width: inherit; /* Set width to inherit from its parent */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: 10rem;
+}
